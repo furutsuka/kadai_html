@@ -10,6 +10,33 @@
   clear: both;
 }
 
+.flowchart{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.flow-item1{
+		width: 30%;
+		border: 1px solid silver;
+		padding:5px;
+		float: left;
+
+}
+
+.flow-item2{
+		width: 30%;
+		border: 1px solid silver;
+		padding:5px;
+		float: left;
+}
+.flow-item3{
+		width: 30%;
+		border: 1px solid silver;
+		padding:5px;
+		float: left;
+}
+
+
 .icon{
 	width: 50px;
 	height: 30px;
@@ -18,30 +45,38 @@
 	color:white;
 }
 
-.flowchart{
-	margin:50px auto;
-}
-
-.flow-item{
-		width: 30%;
-		border: 1px solid silver;
-		margin:20px;
-		float: left;
-}
 .flow-image{
 	width: 90%;
-	margin:5px 5%;
-	height: 150px;
-
+	height: 100%;
 }
 
 @media screen and (max-width:768px) {
-  .flow-box {
-display: block;
+.flowchart{
+	margin-right: 5%;
+	margin-left:  5%;
+
 }
 
- .flow-item{
+.flow-item1{
 	width: 90%;
-float: none;
-    }
+	float:none;
+ 	margin:  0 auto;
+ 	margin-bottom:20px;
+
+ }
+ .flow-item2{
+	width: 90%;
+	float:none;
+	margin:  0 auto;
+ 	margin-bottom:20px;
+
+
+ }
+ .flow-item3{
+	width: 90%;
+	float:none;
+	margin:  0 auto;
+ 	margin-bottom:20px;
+
+ }
 }
